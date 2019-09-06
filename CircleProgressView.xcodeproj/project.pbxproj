@@ -11,8 +11,6 @@
 		634707751E17B1BF001C31D2 /* CircleProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6347076E1E17B1BF001C31D2 /* CircleProgressView.framework */; };
 		634707761E17B1BF001C31D2 /* CircleProgressView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6347076E1E17B1BF001C31D2 /* CircleProgressView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6347077F1E17B3FD001C31D2 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347077E1E17B3FD001C31D2 /* CircleProgressView.swift */; };
-		CB095FC9199A8F44009C1C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB095FC8199A8F44009C1C26 /* AppDelegate.swift */; };
-		CB095FCB199A8F44009C1C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB095FCA199A8F44009C1C26 /* ViewController.swift */; };
 		CB095FCE199A8F44009C1C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB095FCC199A8F44009C1C26 /* Main.storyboard */; };
 		CB095FD0199A8F44009C1C26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB095FCF199A8F44009C1C26 /* Images.xcassets */; };
 		CB20A11F1F8BC7EC00E34AC1 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347077E1E17B3FD001C31D2 /* CircleProgressView.swift */; };
@@ -49,8 +47,6 @@
 		6347077E1E17B3FD001C31D2 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		CB095FC3199A8F44009C1C26 /* CircleProgressView-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CircleProgressView-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB095FC7199A8F44009C1C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB095FC8199A8F44009C1C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB095FCA199A8F44009C1C26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB095FCD199A8F44009C1C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB095FCF199A8F44009C1C26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB095FDA199A8F44009C1C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,8 +104,6 @@
 		CB095FC5199A8F44009C1C26 /* CircleProgressView-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				CB095FC8199A8F44009C1C26 /* AppDelegate.swift */,
-				CB095FCA199A8F44009C1C26 /* ViewController.swift */,
 				CB095FCC199A8F44009C1C26 /* Main.storyboard */,
 				CB095FCF199A8F44009C1C26 /* Images.xcassets */,
 				CB095FC6199A8F44009C1C26 /* Supporting Files */,
@@ -269,8 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB095FCB199A8F44009C1C26 /* ViewController.swift in Sources */,
-				CB095FC9199A8F44009C1C26 /* AppDelegate.swift in Sources */,
 				CB20A11F1F8BC7EC00E34AC1 /* CircleProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
